@@ -10,6 +10,7 @@ def print_variables():
     y = 123
     print(f'\n -> Simple variables: {x}; {y}; {z}')
 
+
 if __name__ == '__main__':
     print_variables()
     userVariable = input("Введите ваше имя: ")

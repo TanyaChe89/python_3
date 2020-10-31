@@ -14,7 +14,9 @@ def defineMaxNumber(input):
 
     return max
 
+
 if __name__ == '__main__':
+
     input = input("Введите положительное число: ")
     maxNumber = defineMaxNumber(input)
     print(f'\n Max: {maxNumber}')

@@ -9,6 +9,7 @@ def secondsToTime(sec):
     pattern = r'%02d:%02d:%02d'
     return pattern % (h, m, s)
 
+
 if __name__ == '__main__':
     input = input("Введите время в секундах: ")
     sec = int(input)

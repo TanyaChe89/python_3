@@ -9,6 +9,7 @@ def convertAndCount(input):
     num3 = int(input+input+input) # 333
     return num1 + num2 + num3
 
+
 if __name__ == '__main__':
     input = input("Введите n: ")
     result = convertAndCount(input)
