@@ -10,5 +10,6 @@ def checkList():
     for i in range(0, 3):
         print(type(array[i]))
 
+
 if __name__ == '__main__':
     checkList()
